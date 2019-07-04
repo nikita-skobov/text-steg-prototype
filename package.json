@@ -1,0 +1,34 @@
+{
+  "name": "text-steg-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "text-steg": "./bin/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikita-skobov/text-steg-prototype.git"
+  },
+  "keywords": [
+    "text",
+    "steganography",
+    "steg",
+    "hide",
+    "data",
+    "in",
+    "text"
+  ],
+  "author": "Nikita Skobov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikita-skobov/text-steg-prototype/issues"
+  },
+  "homepage": "https://github.com/nikita-skobov/text-steg-prototype#readme",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
