@@ -6,6 +6,23 @@ This project can take any arbitrary source file and encode it by taking a nibble
 The map is shuffled via a seed using the sfc32 random number generator which has a 128 bit state. 
 To decode the encoded output file, you must use the same seed as when encoding.
 
+### An example:
+
+Encode somesecret.txt
+```md
+this is some secret text
+```
+
+using command:
+```sh
+text-steg encode --file somesecret.txt --output somesecret.encoded.txt --n 4
+```
+
+into somesecret.encoded.txt:
+```md
+habits to the grounds of a man in spite of one unworthy of no time. his form being tied to a mill moments my soon and since you family prosperity. one as ll a way but himself. was was as good some time but being on old soon acquit beautiful flora it not to varney burn out family you family said now of charles on
+```
+
 * [Installation](#installation)
 * [Usage](#usage)
 * [How it Works](#how-it-works)
